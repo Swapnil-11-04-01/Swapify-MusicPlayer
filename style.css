@@ -103,11 +103,11 @@ nav ul li {
 }
 
 .songitem {
-  font-size: small;
+  font-size: 2vh;
   height: 30px;
   display: flex;
   background-color: white;
-  width: 55vh;
+  width: 30vw;
   color: black;
   margin: 25px 0;
   justify-content: space-between;
@@ -184,4 +184,15 @@ nav ul li {
 .songinfo img {
   opacity: 0;
   transition: opacity 0.2s ease-in;
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  body {
+    background-image: url("bg.jpg");
+  }
 }
