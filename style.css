@@ -69,6 +69,7 @@ nav ul li {
   padding: 23px;
   background-image: url("bg.jpg");
   background-size: cover;
+  opacity: 0.9;
 }
 
 .heading {
@@ -102,10 +103,11 @@ nav ul li {
 }
 
 .songitem {
+  font-size: small;
   height: 30px;
   display: flex;
   background-color: white;
-  width: 50vh;
+  width: 55vh;
   color: black;
   margin: 25px 0;
   justify-content: space-between;
@@ -114,7 +116,7 @@ nav ul li {
   transition: height 0.2s, width 0.2s, transform 0.2s;
 }
 .songitem:hover {
-  width: 60%;
+  width: 75%;
   height: 40px;
 }
 
@@ -123,14 +125,15 @@ nav ul li {
   transition: height 0.2s, width 0.2s, transform 0.2s;
 }
 
-.songitem img {
+.songitemImg {
   width: 25px;
+  height: 25px;
   margin: 0 23px;
   border-radius: 34px;
   cursor: pointer;
   transition: height 0.2s, width 0.2s, transform 0.2s;
 }
-.songitem img:hover{
+.songitemImg:hover{
   width:8vw;
   height:8vw;
 }
